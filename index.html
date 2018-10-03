@@ -1,0 +1,166 @@
+<!-- html-разметка задания здесь -->
+<div class="text">
+
+<p><strong>Сессия 1:</strong></p>
+
+<ol>
+	<li><span style="color: #000000;">Произнести выведенные на экран 5-ть цифр: </span><span style="color: #008000;"><b>{{session1_number}}</b> </span></li>
+	<li><span style="color: #000000;">Произнести выведенную на экран фразу: </span><span style="color: #008000;"> <b>{{session1_text}}</b></span></li>
+	<li>Выполнить повороты головой( см. Инструкцию )</li>
+	
+	<li>Выбирите место записи: 
+		{{#field type="select" name="mode_record_1" placeholder="Место записи" width="200px"}}
+		{{select_item value="home" text="Домашние условия"}}
+		{{select_item value="office" text="Офис"}}
+		{{select_item value="car" text="Автомобиль"}}
+		{{select_item value="transport" text="Общественный транспорт"}}
+		{{select_item value="open_space" text="Открытое пространство (парк, двор)"}}
+		{{select_item value="street" text="Городская улица"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>Выбирите тип устройства записи: 
+		{{#field type="select" name="device_type_1" placeholder="Устройство записи" width="200px"}}
+		{{select_item value="smartphone" text="Мобильный телефон"}}
+		{{select_item value="tablet" text="Планшет"}}
+		{{select_item value="pc" text="Компьютер"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>
+		Выбирите время суток в момент записи видео: 
+		{{#field type="select" name="time_record_1" placeholder="Диапазон" width="200px"}}
+		{{select_item value="time_1" text="00:00 - 08:00"}}
+		{{select_item value="time_2" text="08:00 - 12:00"}}
+		{{select_item value="time_3" text="12:00 - 18:00"}}
+		{{select_item value="time_4" text="18:00 - 24:00"}}
+		{{/field}}
+	</li>
+	
+	<li>{{field type="file" name="video_record1" }} </li>
+</ol>
+
+<p>&nbsp;</p>
+<p><strong>Сессия 2:</strong></p>
+
+<ol>
+	<li>Произнести выведенные на экран 5-ть цифр:<span style="color: #008000;"><b> {{session2_number}}</b></span></li>
+	<li>Произнести выведенную на экран фразу: <span style="color: #008000;"><b>{{session2_text}}</b></span></li>
+	<li>Выполнить повороты головой( см. Инструкцию )</li>
+	
+	<li>Выбирите место записи: {{#field type="select" name="mode_record_2" placeholder="Место записи" width="200px"}}
+		{{select_item value="home" text="Домашние условия"}}
+		{{select_item value="office" text="Офис"}}
+		{{select_item value="car" text="Автомобиль"}}
+		{{select_item value="transport" text="Общественный транспорт"}}
+		{{select_item value="open_space" text="Открытое пространство (парк, двор)"}}
+		{{select_item value="street" text="Городская улица"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>Выбирите тип устройства записи: {{#field type="select" name="device_type_2" placeholder="Устройство записи" width="200px"}}
+		{{select_item value="smartphone" text="Мобильный телефон"}}
+		{{select_item value="tablet" text="Планшет"}}
+		{{select_item value="pc" text="Компьютер"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>
+		Выбирите время суток в момент записи видео: 
+		{{#field type="select" name="time_record_2" placeholder="Диапазон" width="200px"}}
+		{{select_item value="time_1" text="00:00 - 08:00"}}
+		{{select_item value="time_2" text="08:00 - 12:00"}}
+		{{select_item value="time_3" text="12:00 - 18:00"}}
+		{{select_item value="time_4" text="18:00 - 24:00"}}
+		{{/field}}
+	</li>
+	
+	<li>{{field type="file" name="video_record2" }}</li>
+</ol>
+
+<p>&nbsp;</p>
+<p><strong>Сессия 3:</strong></p>
+
+<ol>
+	<li>Произнести выведенные на экран 5-ть цифр: <span style="color: #008000;"><b>{{session3_number}}</b></span></li>
+	<li>Произнести выведенную на экран фразу: <span style="color: #008000;"><b>{{session3_text}}</b></span></li>
+	<li>Выполнить повороты головой( см. Инструкцию )</li>
+	
+	<li>Выбирите место записи: {{#field type="select" name="mode_record_3" placeholder="Место записи" width="200px"}}
+		{{select_item value="home" text="Домашние условия"}}
+		{{select_item value="office" text="Офис"}}
+		{{select_item value="car" text="Автомобиль"}}
+		{{select_item value="transport" text="Общественный транспорт"}}
+		{{select_item value="open_space" text="Открытое пространство (парк, двор)"}}
+		{{select_item value="street" text="Городская улица"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>Выбирите тип устройства записи: {{#field type="select" name="device_type_3" placeholder="Устройство записи" width="200px"}}
+		{{select_item value="smartphone" text="Мобильный телефон"}}
+		{{select_item value="tablet" text="Планшет"}}
+		{{select_item value="pc" text="Компьютер"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	<li>
+		Выбирите время суток в момент записи видео: 
+		{{#field type="select" name="time_record_3" placeholder="Диапазон" width="200px"}}
+		{{select_item value="time_1" text="00:00 - 08:00"}}
+		{{select_item value="time_2" text="08:00 - 12:00"}}
+		{{select_item value="time_3" text="12:00 - 18:00"}}
+		{{select_item value="time_4" text="18:00 - 24:00"}}
+		{{/field}}
+	</li>
+	
+	<li>{{field type="file" name="video_record3" }}</li>
+</ol>
+
+<p>&nbsp;</p>
+<p><strong>Сессия 4:</strong></p>
+
+<ol>
+	<li>Произнести выведенные на экран 5-ть цифр: <span style="color: #008000;"> <b>{{session4_number}}</b></span></li>
+	<li>Произнести выведенную на экран фразу: <span style="color: #008000;"><b>{{session4_text}} </b></span></li>
+	<li>Выполнить повороты головой( см. Инструкцию )</li>
+	
+	<li>Выбирите место записи: {{#field type="select" name="mode_record_4" placeholder="Место записи" width="200px"}}
+		{{select_item value="home" text="Домашние условия"}}
+		{{select_item value="office" text="Офис"}}
+		{{select_item value="car" text="Автомобиль"}}
+		{{select_item value="transport" text="Общественный транспорт"}}
+		{{select_item value="open_space" text="Открытое пространство (парк, двор)"}}
+		{{select_item value="street" text="Городская улица"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>Выбирите тип устройства записи: {{#field type="select" name="device_type_4" placeholder="Устройство записи" width="200px"}}
+		{{select_item value="smartphone" text="Мобильный телефон"}}
+		{{select_item value="tablet" text="Планшет"}}
+		{{select_item value="pc" text="Компьютер"}}
+		{{select_item value="other" text="Другое"}}
+		{{/field}}
+	</li>
+	
+	<li>
+		Выбирите время суток в момент записи видео: 
+		{{#field type="select" name="time_record_4" placeholder="Диапазон" width="200px"}}
+		{{select_item value="time_1" text="00:00 - 08:00"}}
+		{{select_item value="time_2" text="08:00 - 12:00"}}
+		{{select_item value="time_3" text="12:00 - 18:00"}}
+		{{select_item value="time_4" text="18:00 - 24:00"}}
+		{{/field}}
+	</li>
+	
+	<li>{{field type="file" name="video_record4" }}</li>
+</ol>
+
+<p>&nbsp;</p>
+
+</div>
