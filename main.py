@@ -19,8 +19,8 @@ header = ["INPUT:session1_text",
           "INPUT:session4_number"
           ]
 
-common_phrase = int(0)
-common_number = str("1 1 2 3 5")
+common_phrase = str("мой голос это мой пароль")
+common_number = str("5 1 7 9 2")
 
 def getRandomSample(len_sequence = 10):
 
@@ -191,7 +191,7 @@ def main():
                          "number_3": getRandomSample(len_dictionary),
                          "phrase_3": getRandomPhrase(library=library, length=len_dictionary),
                          "number_4": converNumberStringToWordString(common_number),
-                         "phrase_4": getRandomPhrase(library=library, length=len_dictionary, id = common_phrase)
+                         "phrase_4": common_phrase
                          }
         except:
             print("*** ERROR ***")
